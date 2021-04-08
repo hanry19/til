@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DataStructure:war">
+    <output-path>$PROJECT_DIR$/DataStructure/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>DataStructure</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="${project.artifactId}-${project.version}.war">
+      <element id="artifact" artifact-name="DataStructure:war exploded" />
+    </root>
+  </artifact>
+</component>
