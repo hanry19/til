@@ -15,12 +15,17 @@
 
 > 사용된 핵심 문법 
 
-문법|설명|
-toUpperCase() | 문자열을 모두 대문자로 변환|
-Character.toUpperCase(대상) | char 형식을 대문자로 변환|
-toChar() | String을 char 형태로 변환|
-toCharArray() | String을 char[ ] 배열로 변환|
-CharAt() | String중 index위치에 대당되는 문자 추출|
+##
+
+문법                        | 설명                                    |
+toUpperCase()               | 문자열을 모두 대문자로 변환             |
+Character.toUpperCase(대상) | char 형식을 대문자로 변환               |
+toChar()                    | String을 char 형태로 변환               |
+toCharArray()               | String을 char[ ] 배열로 변환            |
+CharAt()                    | String중 index위치에 대당되는 문자 추출  |
+
+
+
 
 ```java
  public static void main(String[] args) {
