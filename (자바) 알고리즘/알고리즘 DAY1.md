@@ -18,6 +18,7 @@
 ##
 
 문법                        | 설명                                    |
+|---|---|
 toUpperCase()               | 문자열을 모두 대문자로 변환             |
 Character.toUpperCase(대상) | char 형식을 대문자로 변환               |
 toChar()                    | String을 char 형태로 변환               |
