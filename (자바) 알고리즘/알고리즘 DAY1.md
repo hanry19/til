@@ -2,6 +2,7 @@
 
 
 
+
 #### 문제
 
 
@@ -10,12 +11,17 @@
 > 대소문자를 구분하지 않습니다.문자열의 길이는 100을 넘지 않습니다.
 
 
+
+
 #### 풀이
+
+
 
 
 > 사용된 핵심 문법 
 
-##
+
+
 
 문법                        | 설명                                    |
 |---|---|
@@ -24,6 +30,11 @@ Character.toUpperCase(대상) | char 형식을 대문자로 변환              
 toChar()                    | String을 char 형태로 변환               |
 toCharArray()               | String을 char[ ] 배열로 변환            |
 CharAt()                    | String중 index위치에 대당되는 문자 추출  |
+
+
+
+
+
 
 
 
