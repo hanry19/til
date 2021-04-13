@@ -76,6 +76,31 @@ public class Day6 {
 
 ```java
 
+public class Day6 {
+
+    public String sol(String str) {
+        String result = "";
+        for (int i = 0; i < str.length(); i++) {
+            System.out.println(str.charAt(i) + " " + i + " " + str.indexOf(str.charAt(i)));
+
+            if (str.indexOf(str.charAt(i)) == i) {
+                // i 번째 문자의 index와 i가 같을 경우에만  문자 누적!
+                result += str.charAt(i);
+            }
+                    }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        Day6 t = new Day6();
+        Scanner scan = new Scanner(System.in);
+        String input = scan.next();
+
+        System.out.println(t.sol(input));
+
+    }
+
+}
 
 
 ```
