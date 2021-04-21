@@ -1,3 +1,4 @@
+
 # DAO / DTO / Entity Class
 
 ## 1. DAO (Data Access Object) - repository package
@@ -115,7 +116,7 @@
 
 # 전체 구조!! (package 기준)
 
-![DAO%20DTO%20Entity%20Class%2009e9ebc058c449a7bafbe9abdeebf1ea/Untitled.png](DAO%20DTO%20Entity%20Class%2009e9ebc058c449a7bafbe9abdeebf1ea/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/63430211/115510329-8aba1600-a2ba-11eb-839a-2b84a302a59d.png)
 
 - **Controller (web)**
     - **기능**
