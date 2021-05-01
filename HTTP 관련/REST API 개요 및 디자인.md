@@ -58,9 +58,12 @@ REST는 Representational State Transfer의 줄임말로, 웹을 위한 네트워
 
         2. **응답** 
 
-            웹 서버가 웹 브라우저에 전송할 때 사용하는 데이터 구성 규청
+            웹 서버가 웹 브라우저에 전송할 때 사용하는 데이터 구성 규정
 
-        ![REST%20API%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%2016f18c301ab44edfb7287d5f996d9011/Untitled.png](REST%20API%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%2016f18c301ab44edfb7287d5f996d9011/Untitled.png)
+        
+	
+	![Untitled](https://user-images.githubusercontent.com/63430211/116780752-71367c80-aab9-11eb-8700-387ad1cc3f57.png)
+	
 
         > **HTML에서 GET/ POST만 지원하는 이유**
 
@@ -132,10 +135,10 @@ RestAPI 철학을 잘 활용하기 위해선 **동일한 URL에 메서드를 활
 
     그리고 테스트 결과는 아래와 같다.
 
-    ![REST%20API%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%2016f18c301ab44edfb7287d5f996d9011/Untitled%201.png](REST%20API%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%2016f18c301ab44edfb7287d5f996d9011/Untitled%201.png)
+![Untitled 2](https://user-images.githubusercontent.com/63430211/116780736-6845ab00-aab9-11eb-8821-e9d200adb448.png)
 
-    ![REST%20API%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%2016f18c301ab44edfb7287d5f996d9011/Untitled%202.png](REST%20API%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%2016f18c301ab44edfb7287d5f996d9011/Untitled%202.png)
 
+![Untitled 3](https://user-images.githubusercontent.com/63430211/116780742-6b409b80-aab9-11eb-9ce7-7bd0138e5950.png)
      
 
 - **@ResponseBody**
@@ -146,6 +149,10 @@ RestAPI 철학을 잘 활용하기 위해선 **동일한 URL에 메서드를 활
 
     반환값과 return 값을 db로부터 값을 가져오는 객체로 지정을 하면 아래와 JSON 형식의 결과를 얻을 수 있다. 
 
-    ![REST%20API%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%2016f18c301ab44edfb7287d5f996d9011/Untitled%203.png](REST%20API%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%2016f18c301ab44edfb7287d5f996d9011/Untitled%203.png)
+![Untitled 1](https://user-images.githubusercontent.com/63430211/116780724-5ebc4300-aab9-11eb-99c3-6da0b0602f5f.png)
 
-    ![REST%20API%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%2016f18c301ab44edfb7287d5f996d9011/Untitled%204.png](REST%20API%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%2016f18c301ab44edfb7287d5f996d9011/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/63430211/116780746-6e3b8c00-aab9-11eb-8331-3070bc31493a.png)
+
+
+
+ 
