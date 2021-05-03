@@ -16,7 +16,9 @@
 
     전달받은 Service는 Mapper에 있는 메서드 헤더를 구현하여 XML의 SQL문을 통해 영속성을 갖는 데이터를 저장, 수정 및 읽어올 수 있다.
 
-![1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled.png](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/63430211/116891184-5f93d700-ac69-11eb-9b7d-d686b0a49b83.png)
+
+
 
 # 1. Spring Initializr 접속 및 시작파일 다운
 
@@ -28,7 +30,8 @@
 - Oracle Driver
 - Thymeleaf
 
-![1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled%201.png](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/63430211/116890972-29eeee00-ac69-11eb-86d4-2398b22122d6.png)
+
 
 ## 1-2 applictation.yml 설정
 
@@ -63,7 +66,9 @@ mybatis:
 5. 데이터베이스의 SQL문을 실행시키는 Mapper.xml 파일
 6. 클라이언트로 요청받은 로직수행의 값을 모델에 담아 전달하면 xxx.html이 호출되어 화면에 보여진다.
 
-![1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled%202.png](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled%202.png)
+
+![Untitled 2](https://user-images.githubusercontent.com/63430211/116891013-3410ec80-ac69-11eb-9285-ca3d926c7b81.png)
+
 
 ## 1-4 CRUD TEST
 
@@ -71,9 +76,11 @@ mybatis:
 
     inteliJ를 사용할 경우 Oracle Developer를 별도로 실행하지 않고 이용이 가능하다.
 
-    ![1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled%203.png](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled%203.png)
 
-    ![1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled%204.png](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled%204.png)
+![Untitled 3](https://user-images.githubusercontent.com/63430211/116891034-396e3700-ac69-11eb-86ae-52c4222d2626.png)
+
+![Untitled 4](https://user-images.githubusercontent.com/63430211/116891061-3f641800-ac69-11eb-977a-e26cf66d0d50.png)
+
 
     ```java
     create table file_boards
@@ -186,8 +193,10 @@ mybatis:
     TEST 코드의 중요성은 점점 부각되어져가고, 그중 가장 간단한 테스트를 진행해보려고한다. 아직은 TEST코드에 대해서 자세힌 모르지만, 추후 공부하여 업로드 하겠다. 
 
     **TEST class 생성**
+    
+    
+![Untitled 5](https://user-images.githubusercontent.com/63430211/116891081-4559f900-ac69-11eb-87c8-82a42da3fa6d.png)
 
-    ![1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled%205.png](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled%205.png)
 
     ```java
     @SpringBootTest
@@ -246,4 +255,5 @@ mybatis:
 
     테스트를 실행 시켰을 때 아래 사진과 같이 뜬다면 대 성공!
 
-    ![1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled%206.png](1%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%8E%E1%85%A9%E1%84%80%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20TEST%E1%84%8F%E1%85%A9%E1%84%83%E1%85%B3%20c993f40e58af41e0821f0d01fb2fa961/Untitled%206.png)
+
+![Untitled 6](https://user-images.githubusercontent.com/63430211/116891112-4e4aca80-ac69-11eb-8b25-1c642b03692d.png)
