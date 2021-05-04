@@ -35,7 +35,8 @@
 
         Thymeleaf는 스스로 해당 폴더에서 html을 찾는다. 
 
-        ![3%E1%84%8C%E1%85%A1%E1%86%BC%20Thymeleaf%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20view%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC%201e9fdafb88bb42e291665fe2088d20ce/Untitled.png](3%E1%84%8C%E1%85%A1%E1%86%BC%20Thymeleaf%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20view%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC%201e9fdafb88bb42e291665fe2088d20ce/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/63430211/116891491-bac5c980-ac69-11eb-92ae-86bfc42fab28.png)
+
 
 2. Thymeleaf사용 방법
 
@@ -45,8 +46,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 ```
 
-![3%E1%84%8C%E1%85%A1%E1%86%BC%20Thymeleaf%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20view%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC%201e9fdafb88bb42e291665fe2088d20ce/Untitled%201.png](3%E1%84%8C%E1%85%A1%E1%86%BC%20Thymeleaf%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB%20view%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC%201e9fdafb88bb42e291665fe2088d20ce/Untitled%201.png)
-
+![Untitled 1](https://user-images.githubusercontent.com/63430211/116891507-c0231400-ac69-11eb-9223-79e5ad3aad7b.png)
 Thymeleaf 선언 예시
 
 Thymeleaf 사용을 선언했으면, 이제 기존의 html 태그에 **"th:____"** 를 붙여 사용한다. 
