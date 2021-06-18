@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+
+<mapper namespace="com.chart.sungjun.mapper.BoardMapper">
+
+    <select id="getBoardList" resultType="com.chart.sungjun.dto.BoardDto">
+
+        select * from keyword order by count desc limit 0,5;
+
+    </select>
+
+    <select id="keywordCheck"  resultType="boolean">
+
+        SELECT    IF(COUNT(*) = 1, 1, 0) from keyword where keyword = #{keyword}
+
+    </select>
+
+
+    <insert id="saveKeyword" parameterType="com.chart.sungjun.dto.BoardDto">
+
+        insert into keyword (keyword) value ( #{keyword} )
+
+
+    </insert>
+
+    <update id="updateCount" parameterType="com.chart.sungjun.dto.BoardDto">
+
+        update keyword set count = count + 1 where keyword = #{keyword}
+
+    </update>
+
+
+</mapper>

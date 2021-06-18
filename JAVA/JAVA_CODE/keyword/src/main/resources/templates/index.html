@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .li_table {
+        width: 500px;
+        solid-color: red;
+        border-top: none;
+        border-right: none
+    }
+
+    .li_table ul {
+        clear: left;
+        margin: 10px;
+        padding: 10px;
+        list-style-type: none;
+        border-top: 1;
+        solid-color: red;
+    }
+
+    .li_table .subject {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .li_table ul li {
+        text-align: center;
+        float: left;
+        margin: 0;
+        padding: 2px, 1px;
+        border-right: 1 solid red;
+        width: 100px;
+    }
+
+    .li_table ul .col {
+        width: 99px;
+    }
+
+    /* 표 라인 맞추기기 위해*/
+    .search-form {
+        margin-bottom: 30px
+    }
+</style>
+
+<body>
+
+<div><h1> 검색 해봐 </h1></div>
+<div class="search-form">
+    <form id='searchForm' action="/" method="get">
+        <input class="search" name="keyword"  placeholder="검색어 입력">
+        <input type="submit" value="검색">
+    </form>
+</div>
+
+
+<div class="li_table">
+
+    <table>
+        <colgroup>
+            <col style="width:10%">
+            <col style="width:60%">
+            <col style="width:15%">
+            <col style="width:20%">
+        </colgroup>
+        <tr class="bold">
+            <td>No</td>
+            <td>keyword</td>
+            <td>count</td>
+            <td>regDate</td>
+        </tr>
+        <tr th:each="data : ${boards}">
+            <td th:text="${data.id}">01</td>
+            <td th:text="${data.keyword}">안녕하세요~ 테스트 제목입니다!안녕하세요~ 테스트 제목입니다!안녕하세요~ 테스트 제목입니다!안녕하세요~ 테스트 제목입니다!</td>
+            <td th:text="${data.count}">테스트</td>
+            <td th:text="${data.regDate}">2021-05-21</td>
+        </tr>
+    </table>
+</div>
+
+
+</body>
+</html>
